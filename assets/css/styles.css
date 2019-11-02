@@ -3502,4 +3502,8 @@ body {
   color: var(--textgray);
 }
 
+#contact {
+  background-image: linear-gradient(to bottom right, white, white, rgba(0, 0, 0, 0.808) 95%);
+}
+
 /*# sourceMappingURL=styles.css.map */
