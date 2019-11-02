@@ -1,0 +1,317 @@
+@import "../fontawesome/scss/font-awesome.scss";
+@import "./nav";
+@import "./cards";
+@import "./footer";
+@import "./mquery";
+
+/*============================================================================================================*/
+html {
+  /* border box fix */
+  box-sizing: border-box;
+  /* Smooths Page Scroll */
+  scroll-behavior: smooth;
+  font-size: 1.6vw;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* Div Full Height of window*/
+html,
+body {
+  height: 100%;
+}
+
+.full-height {
+  height: 100%;
+}
+
+:root {
+  --textgray: rgb(97, 96, 96);
+}
+
+/*============================================================================================================*/
+/* Header Parallax Element Style*/
+
+.paral {
+  min-height: auto;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+/*============================================================================================================*/
+/* About Section */
+
+#me {
+  box-shadow: 0.1875rem 0.1875rem 0.425rem 0.0625rem #7c7b7b;
+}
+
+/*About Me Description  */
+#about {
+  margin-top: 0.875rem;
+  font-size: 1.225rem;
+  font-weight: 400;
+  color: var(--textgray);
+  font-family: "PT Sans", sans-serif;
+}
+
+#sign {
+  width: 18.75rem;
+}
+
+
+/*============================================================================================================*/
+/* Tranisition Div on Scroll */
+
+.scrolled {
+  transition-property: background-color;
+  transition-duration: 1200ms;
+  transition-timing-function: ease-in-out;
+  background-color: rgba(0, 0, 0, 0.877) !important;
+  padding: 5px !important;
+}
+
+.scrolled2 {
+  transition-property: display;
+  transition-duration: 1200ms;
+  transition-timing-function: ease-in-out;
+  /* opacity: 0; */
+  display: none;
+  /* padding: 5px !important;  */
+}
+
+/*============================================================================================================*/
+/* Image for Main Page Section */
+
+.panel {
+  background-image: url("../images/charlotte1.jpg");
+  position: relative;
+}
+
+.panel2 {
+  background-image: url("../images/charlotte3.jpg");
+}
+
+.panel4 {
+  background-image: url("../images/charlotte6.jpg");
+}
+
+.panel6 {
+  background-image: url("../images/charlotte5.jpg");
+}
+
+.display-4,
+.display-3 {
+  color: rgba(54, 54, 54, 0.692);
+  text-shadow: 0.135rem 0.135rem 0.2rem rgba(0, 0, 0, 0.493);
+  font-weight: 500;
+  font-size: 5rem;
+  font-family: "Fredericka the Great", cursive;
+}
+
+.panel,
+.panel2,
+.panel4,
+.panel6 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.panel2,
+.panel4,
+.panel6 {
+  height: 45%;
+}
+
+.panel7 {
+  height: 22.5rem;
+}
+
+.panel1 {
+  height: 42.5rem;
+  background-color: whitesmoke;
+}
+
+.panel3 {
+  height: 42.5rem;
+  background-color: whitesmoke;
+}
+
+.panel,
+.panel1,
+.panel2,
+.panel3,
+.panel4,
+.panel5,
+.panel6,
+.panel7 {
+  border-radius: 0;
+  background-color: whitesmoke;
+}
+
+#combinedTitle {
+  z-index: 100;
+  top: 75%;
+}
+/*============================================================================================================*/
+/* Portfolio Section */
+
+/* Portfolio Page Title */
+#name2 {
+  margin-top: 1.875rem;
+  margin-bottom: 1.25rem;
+  font-size: 3.4375rem;
+  font-weight: 900;
+  text-shadow: 0.125rem 0.125rem 0.625rem rgba(0, 0, 0, 0.609);
+}
+
+#info {
+  margin-top: 0.875rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-shadow: 0.125rem 0.125rem 0.425rem rgba(0, 0, 0, 0.404);
+}
+
+/* Portfolio Card Description*/
+.description {
+  font-size: 0.9375rem;
+  font-weight: 500;
+  overflow-y: scroll;
+  height: 9.375rem;
+  padding: 0.3125rem;
+}
+/*============================================================================================================*/
+/* Remove Bottom Margin from Jumbotrons */
+
+.jumbotron {
+  margin-bottom: 0.01rem;
+  margin-right: 0rem;
+  margin-left: 0rem;
+}
+
+/*============================================================================================================*/
+/* Main title animation */
+
+#mainTitle {
+  font-size: 3.125rem;
+  font-weight: 200;
+  line-height: 52px;
+}
+
+#mainTitle2 {
+  font-size: 1.875rem;
+  font-weight: 200;
+  margin-top: -15px;
+}
+
+#hello {
+  color: rgb(241, 242, 245);
+  text-shadow: 0.105rem 0.105rem 0.55rem rgba(0, 0, 0, 0.938);
+  position: relative;
+  top: 60px;
+}
+
+#one {
+  color: transparent;
+  position: relative;
+  animation: mymove 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+  position: relative;
+  top: 60px;
+}
+
+@keyframes mymove {
+  from {
+    left: 0px;
+    color: transparent;
+  }
+  to {
+    left: 0px;
+    color: rgb(241, 242, 245);
+    text-shadow: 0.105rem 0.105rem 0.55rem rgba(0, 0, 0, 0.938);
+    text-align: center;
+  }
+}
+
+#two {
+  color: transparent;
+  position: relative;
+  animation: mymove2 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+  position: relative;
+  top: 60px;
+}
+
+@keyframes mymove2 {
+  from {
+    left: 0px;
+    color: transparent;
+  }
+  to {
+    left: 0px;
+    color: rgb(241, 242, 245);
+    text-shadow: 0.105rem 0.105rem 0.55rem rgba(0, 0, 0, 0.935);
+  }
+}
+
+/*============================================================================================================*/
+/* Skills  Section*/
+.devIcon {
+  font-size: 4.75rem;
+  text-shadow: 0.105rem 0.105rem 0.205rem rgba(82, 82, 82, 0.644);
+  /* font-weight:bold; */
+}
+
+/*============================================================================================================*/
+/* Contact Info */
+.fa-mobile,
+.fa-envelope-o,
+.fa-github,
+.fa-linkedin {
+  font-weight: 100;
+  text-shadow: 0.125rem 0.125rem 0.425rem rgba(0, 0, 0, 0.404);
+  text-decoration: none;
+}
+
+.fa-mobile {
+  font-size: 4.75rem;
+}
+
+.fa-envelope-o,
+.fa-github,
+.fa-linkedin {
+  font-size: 3.5rem;
+}
+
+#contactInfo,
+.fa-github,
+.fa-linkedin,
+.fa-mobile,
+#email,
+#email2 {
+  color: var(--textgray) !important;
+}
+
+#email2 {
+  text-decoration: none;
+}
+
+#email2:hover,
+#email2:active {
+  text-decoration: none;
+}
+
+#phone{
+  font-family: "PT Sans", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--textgray)
+}

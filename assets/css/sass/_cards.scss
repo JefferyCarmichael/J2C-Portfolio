@@ -1,0 +1,61 @@
+/* Portfolio Cards */
+.project {
+    margin-bottom: 1.875rem;
+  }
+  
+  .mainCard {
+    box-shadow: 0.3875rem 0.3875rem 0.625rem 0.0525rem #888888;
+  }
+  
+  /* Card box shadow changes on hover */
+  .mainCard:hover {
+    box-shadow: 0.1375rem 0.1275rem 0.825rem 0.1875rem rgba(66, 70, 78, 0.4);
+    -webkit-transform: scale(1.025);
+    -moz-transform: scale(1.025);
+    -ms-transform: scale(1.025);
+    -o-transform: scale(1.025);
+    transform: scale(1.025);
+  }
+  
+  .card-link,
+  .card-title {
+    font-weight: 500;
+    text-shadow: 0.125rem 0.125rem 0.525rem rgba(0, 0, 0, 0.404);
+    text-decoration: none !important;
+    color: rgb(61, 61, 61) !important;
+  }
+  
+  .card-text {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 900;
+    text-shadow: 0.01rem 0.055rem 0.125rem rgba(63, 63, 63, 0.404);
+    border-top: 0.0625rem ridge rgba(56, 56, 56, 0.527) !important;
+    border-left: 0.0625rem ridge rgba(87, 86, 86, 0.349) !important;
+    background-color: rgb(248, 248, 242);
+    color: rgb(107, 105, 105);
+  }
+  
+  /* Card links change color on hover  & active*/
+  .card-title:hover {
+    color: rgba(33, 40, 139, 0.801) !important;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px rgba(255, 255, 255, 0.377),
+      0 0 20px #18a3ff, 0 0 15px rgba(33, 40, 139, 0.801);
+    color: rgba(48, 84, 151, 0.966) !important;
+  }
+  
+  .card-link:hover {
+    color: rgba(33, 40, 139, 0.801) !important;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px rgba(255, 255, 255, 0.377), 0 0 20px #18a3ff, 0 0 15px rgba(33, 40, 139, 0.801);
+    color: rgba(48, 84, 151, 0.966) !important;
+  }
+  
+  .card-title:active {
+    color: rgba(92, 238, 238, 0.973) !important;
+    transform: translateY(0.175rem);
+  }
+  
+  .card-link:active {
+    color: rgba(92, 238, 238, 0.993) !important;
+    transform: translateY(0.175rem);
+  }
+  

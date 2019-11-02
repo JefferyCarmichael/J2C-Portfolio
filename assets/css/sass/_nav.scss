@@ -1,0 +1,67 @@
+/*Nav Bar Section*/
+
+/* Nav Bar  & Footer Common Transition*/
+.navbar-dark,
+pageFooter {
+  transition-property: background-color, padding;
+  transition-duration: 1000ms;
+  transition-timing-function: ease-in-out;
+  box-shadow: 0 0.1875rem 1.0125rem 0.0625rem #49494986;
+  opacity: 1;
+  padding: 10px;
+}
+
+#pageFooter {
+  transition-property: opacity;
+  transition-property: background-color, padding;
+  transition-duration: 1000ms;
+  transition-timing-function: ease-in-out;
+}
+
+/* Nav Bar */
+.navbar-dark {
+  background-image: linear-gradient(
+    rgba(46, 46, 46, 0.808) 0%,
+    rgba(107, 107, 107, 0.253) 100%
+  );
+}
+
+.nav-item {
+  text-shadow: 0.125rem 0.125rem 0.325rem rgba(46, 45, 45, 0.727);
+  color: rgb(228, 228, 228) !important;
+  font-size: 1.1875rem !important;
+}
+
+/*Nav link change color on hover & click*/
+.nav-link:hover {
+  color: rgba(33, 40, 139, 0.801) !important;
+  text-shadow: 0 0 5px rgb(255, 255, 255), 0 0 10px rgb(218, 218, 218), 0 0 15px rgba(255, 255, 255, 0.377), 0 0 20px rgb(86, 163, 251), 0 0 35px rgb(39, 92, 153), 0 0 40px rgb(32, 89, 153);
+  color: rgba(48, 84, 151, 0.966) !important;
+}
+
+.nav-link:active {
+  color: rgba(92, 238, 238, 0.993) !important;
+  transform: translateY(0.175rem);
+}
+
+#navName {
+  color: #d4d3d3;
+  font-size: 1.75rem;
+  font-weight: 300;
+  font-family: "Shadows Into Light", cursive;
+  text-shadow: 0.125rem 0.125rem 0.625rem rgba(0, 0, 0, 0.979);
+  line-height: 20px;
+}
+
+#action {
+  color: black;
+  text-decoration: none !important;
+}
+
+#action:hover {
+  text-decoration: none !important;
+}
+
+#action:active {
+  text-decoration: none !important;
+}
