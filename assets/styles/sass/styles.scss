@@ -131,6 +131,9 @@ body {
 
 .panel7 {
   height: 22.5rem;
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1))!important;
+
+  
 }
 
 .panel1 {
@@ -152,7 +155,8 @@ body {
 .panel6,
 .panel7 {
   border-radius: 0;
-  background-color: whitesmoke;
+  // background-color: whitesmoke;
+
 }
 
 #combinedTitle {
@@ -314,4 +318,8 @@ body {
   font-weight: 600;
   font-size: 20px;
   color: var(--textgray)
+}
+
+#contact{
+  background-image: linear-gradient(to bottom right,  whitesmoke, blue);
 }
