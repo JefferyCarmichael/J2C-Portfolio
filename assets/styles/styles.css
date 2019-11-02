@@ -2714,4 +2714,4 @@ body {
   color: var(--textgray); }
 
 #contact {
-  background-image: linear-gradient(to bottom right, whitesmoke, blue); }
+  background-image: linear-gradient(to bottom right, white, white, rgba(0, 0, 0, 0.883) 80%); }
