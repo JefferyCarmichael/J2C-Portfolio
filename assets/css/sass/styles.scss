@@ -79,9 +79,7 @@ body {
   transition-property: display;
   transition-duration: 1200ms;
   transition-timing-function: ease-in-out;
-  /* opacity: 0; */
   display: none;
-  /* padding: 5px !important;  */
 }
 
 /*============================================================================================================*/
@@ -109,7 +107,7 @@ body {
   color: rgba(54, 54, 54, 0.692);
   text-shadow: 0.135rem 0.135rem 0.2rem rgba(0, 0, 0, 0.493);
   font-weight: 500;
-  font-size: 5rem;
+  font-size: 4.2rem;
   font-family: "Fredericka the Great", cursive;
 }
 
@@ -129,12 +127,8 @@ body {
   height: 45%;
 }
 
-.panel7 {
-  height: 22.5rem;
-}
-
 .panel1 {
-  height: 42.5rem;
+  // height: 42.5rem;
   background-color: whitesmoke;
 }
 
@@ -152,13 +146,18 @@ body {
 .panel6,
 .panel7 {
   border-radius: 0;
-  background-color: whitesmoke;
+  background-color: rgb(224, 220, 220);
 }
 
 #combinedTitle {
   z-index: 100;
   top: 75%;
 }
+
+#contact, .panel1, .panel3, .panel5{
+  background-image: linear-gradient(to bottom right,rgba(240, 241, 243, 0.082),rgba(116, 117, 117, 0.85),rgba(0, 0, 0, 0.9) 75%);
+}
+
 /*============================================================================================================*/
 /* Portfolio Section */
 
@@ -292,9 +291,6 @@ body {
 }
 
 #contactInfo,
-.fa-github,
-.fa-linkedin,
-.fa-mobile,
 #email,
 #email2 {
   color: var(--textgray) !important;
@@ -316,6 +312,15 @@ body {
   color: var(--textgray)
 }
 
-#contact{
-  background-image: linear-gradient(to bottom right,rgb(255, 255, 255),rgb(255, 255, 255),rgba(0, 0, 0, 0.883) 80%);
+
+.infoBox{
+  padding: 5%;
+  background:#fff;
+  box-shadow: 0px 0px 4px 0px #b0b3b7 !important;
+}
+
+.inSet{
+  padding: 5%;
+  background:rgba(131, 131, 131, 0.103);
+  box-shadow: inset 0px 0px 10px 0px #b0b3b7 !important;
 }
