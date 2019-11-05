@@ -3110,7 +3110,7 @@ pageFooter {
 }
 
 .mainCard {
-  box-shadow: 0.3875rem 0.3875rem 0.625rem 0.0525rem #888888;
+  box-shadow: 0.1875rem 0.1875rem 0.25rem 0.025rem #888888d0;
 }
 
 /* Card box shadow changes on hover */
@@ -3520,8 +3520,8 @@ body {
 
 .infoBox {
   padding: 5%;
-  background: #fff;
-  box-shadow: 0px 0px 4px 0px #b0b3b7 !important;
+  background: rgba(255, 255, 255, 0.835);
+  box-shadow: 2px 2px 10px 0px #5a5a5afd !important;
 }
 
 /*# sourceMappingURL=styles.css.map */
