@@ -3113,6 +3113,15 @@ pageFooter {
   box-shadow: 0.1875rem 0.1875rem 0.25rem 0.025rem #888888d0;
 }
 
+/* Portfolio Card Description*/
+.description {
+  font-size: 0.9375rem;
+  font-weight: 500;
+  overflow-y: scroll;
+  height: 9.375rem;
+  padding: 0.3125rem;
+}
+
 /* Card box shadow changes on hover */
 .mainCard:hover {
   box-shadow: 0.1375rem 0.1275rem 0.825rem 0.1875rem rgba(66, 70, 78, 0.4);
@@ -3188,7 +3197,11 @@ pageFooter {
 }
 
 .fa-twitter {
-  color: rgba(5, 95, 238, 0.5);
+  color: rgba(5, 94, 238, 0.651);
+}
+
+.fa-file-text-o {
+  color: rgba(73, 156, 128, 0.55);
 }
 
 #icons .fa {
@@ -3259,7 +3272,7 @@ body {
 /*============================================================================================================*/
 /* About Section */
 #me {
-  box-shadow: 0.1875rem 0.1875rem 0.425rem 0.0625rem #7c7b7b;
+  box-shadow: 0.1575rem 0.1575rem 0.225rem 0.0625rem #5c5c5c;
 }
 
 /*About Me Description  */
@@ -3316,8 +3329,12 @@ body {
   color: rgba(54, 54, 54, 0.692);
   text-shadow: 0.135rem 0.135rem 0.2rem rgba(0, 0, 0, 0.493);
   font-weight: 500;
-  font-size: 4.2rem;
+  font-size: 4.0rem;
   font-family: "Fredericka the Great", cursive;
+}
+
+.infoBox .pageContact {
+  font-size: 3.0rem;
 }
 
 .panel,
@@ -3382,15 +3399,6 @@ body {
   font-size: 1.125rem;
   font-weight: 600;
   text-shadow: 0.125rem 0.125rem 0.425rem rgba(0, 0, 0, 0.404);
-}
-
-/* Portfolio Card Description*/
-.description {
-  font-size: 0.9375rem;
-  font-weight: 500;
-  overflow-y: scroll;
-  height: 9.375rem;
-  padding: 0.3125rem;
 }
 
 /*============================================================================================================*/
@@ -3479,7 +3487,8 @@ body {
 .fa-envelope-o,
 .fa-github,
 .fa-linkedin,
-.fa-twitter {
+.fa-twitter,
+.fa-file-text-o {
   font-weight: 100;
   text-shadow: 0.125rem 0.125rem 0.425rem rgba(0, 0, 0, 0.404);
   text-decoration: none;
@@ -3492,7 +3501,8 @@ body {
 .fa-envelope-o,
 .fa-github,
 .fa-linkedin,
-.fa-twitter {
+.fa-twitter,
+.fa-file-text-o {
   font-size: 3.5rem;
 }
 
@@ -3500,10 +3510,6 @@ body {
 #email,
 #email2 {
   color: var(--textgray) !important;
-}
-
-#email2 {
-  text-decoration: none;
 }
 
 #email2:hover,
@@ -3521,7 +3527,7 @@ body {
 .infoBox {
   padding: 5%;
   background: rgba(255, 255, 255, 0.835);
-  box-shadow: 2px 2px 10px 0px #5a5a5afd !important;
+  box-shadow: 3px 3px 10px 0px #5a5a5afd !important;
 }
 
 /*# sourceMappingURL=styles.css.map */

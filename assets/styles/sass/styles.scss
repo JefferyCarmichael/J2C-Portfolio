@@ -47,7 +47,7 @@ body {
 /* About Section */
 
 #me {
-  box-shadow: 0.1875rem 0.1875rem 0.425rem 0.0625rem #7c7b7b;
+  box-shadow: 0.1575rem 0.1575rem 0.225rem 0.0625rem #5c5c5c;
 }
 
 /*About Me Description  */
@@ -107,8 +107,14 @@ body {
   color: rgba(54, 54, 54, 0.692);
   text-shadow: 0.135rem 0.135rem 0.2rem rgba(0, 0, 0, 0.493);
   font-weight: 500;
-  font-size: 4.2rem;
+  font-size: 4.0rem;
   font-family: "Fredericka the Great", cursive;
+}
+
+.infoBox {
+  .pageContact{
+    font-size: 3.0rem;
+  }
 }
 
 .panel,
@@ -177,14 +183,6 @@ body {
   text-shadow: 0.125rem 0.125rem 0.425rem rgba(0, 0, 0, 0.404);
 }
 
-/* Portfolio Card Description*/
-.description {
-  font-size: 0.9375rem;
-  font-weight: 500;
-  overflow-y: scroll;
-  height: 9.375rem;
-  padding: 0.3125rem;
-}
 /*============================================================================================================*/
 /* Remove Bottom Margin from Jumbotrons */
 
@@ -275,7 +273,8 @@ body {
 .fa-envelope-o,
 .fa-github,
 .fa-linkedin,
-.fa-twitter {
+.fa-twitter,
+.fa-file-text-o {
   font-weight: 100;
   text-shadow: 0.125rem 0.125rem 0.425rem rgba(0, 0, 0, 0.404);
   text-decoration: none;
@@ -288,7 +287,8 @@ body {
 .fa-envelope-o,
 .fa-github,
 .fa-linkedin,
-.fa-twitter {
+.fa-twitter,
+.fa-file-text-o {
   font-size: 3.5rem;
 }
 
@@ -298,9 +298,9 @@ body {
   color: var(--textgray) !important;
 }
 
-#email2 {
-  text-decoration: none;
-}
+// #email2 {
+//   text-decoration: none;
+// }
 
 #email2:hover,
 #email2:active {
@@ -317,11 +317,6 @@ body {
 .infoBox{
   padding: 5%;
   background:rgba(255, 255, 255, 0.835);
-  box-shadow: 2px 2px 10px 0px #5a5a5afd !important;
+  box-shadow: 3px 3px 10px 0px #5a5a5afd !important;
 }
 
-// .inSet{
-//   padding: 5%;
-//   background:rgba(148, 147, 147, 0.103);
-//   box-shadow: inset 0px 0px 5px 0px #929292 !important;
-// }
